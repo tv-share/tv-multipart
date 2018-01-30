@@ -18,17 +18,20 @@
   "author": "theVelops <contato@thevelops.com> (http://www.thevelops.com)",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.16.2",
     "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.16.2",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
     "gulp-clean-dest": "^0.2.0",
     "jest": "^22.1.2",
     "pump": "^2.0.1",
+    "regenerator-runtime": "^0.11.1",
     "sinon": "^4.1.6",
-    "supertest": "^3.0.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "supertest": "^3.0.0"
   },
   "dependencies": {
     "multiparty": "^4.1.3"

@@ -25,7 +25,7 @@ export class TVMultipart {
         const { fieldName, uploadDir } = this;
 
         return new Promise((resolve, reject) => {        
-            const form = new multiparty.Form({ uploadDir: uploadDir });
+            const form = new multiparty.Form({ uploadDir });
             form.parse(req, (err, fields, files) => {
                 if(err) {
                     reject(err);
